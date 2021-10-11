@@ -11,7 +11,7 @@ const Home = () => {
   const getData = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("/home", {
+      const res = await fetch("https://fyp-react-app.herokuapp.com/home", {
         method: "Get",
         headers: {
           "Content-type": "application/json",

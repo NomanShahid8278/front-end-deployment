@@ -103,7 +103,7 @@ const Part1 = () => {
   //   let formdata=new FormData();
   //   formdata.append("userfile", e.target.files[0]);
 
-  //   const res = await fetch("/upload", {
+  //   const res = await fetch("https://fyp-react-app.herokuapp.com/upload", {
   //     method:"Post",
   //     body:formdata,
 
